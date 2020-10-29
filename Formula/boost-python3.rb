@@ -13,7 +13,7 @@ class BoostPython3 < Formula
   end
 
   depends_on "numpy" => :build
-  depends_on "boost"
+  depends_on "edoko/boost/boost"
   depends_on "python@3.8"
 
   # Fix build on Xcode 11.4
